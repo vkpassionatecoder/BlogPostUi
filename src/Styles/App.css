@@ -1,0 +1,15 @@
+.tagBtn{
+    background-color:transparent;
+    border-radius: 5px;
+    padding: 4px 8px;
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 300
+}
+
+ul li:hover{
+    background-color:#eee;
+    padding-bottom: 10px;
+   
+}

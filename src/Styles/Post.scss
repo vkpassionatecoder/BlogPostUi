@@ -1,0 +1,63 @@
+.masonry-post{
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    background-size: cover;
+    background-position:center center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    margin: 0 auto;
+    min-height: 200px;
+
+}
+.vk1{
+    color: green
+}
+.image-text {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image-title, .image-date, .tags-container {
+
+    float: left;
+    width: 100%;
+    z-index: 10;
+    font-weight:300px;
+}
+
+.date-div{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+.image-date{
+    font-size:15px;
+    color:#d9c3c3;
+    font-weight:600px;
+    background-color:black;
+}
+.image-title{
+    color:black;
+    font-size:15px;
+    position: relative;
+    top:75%
+}
+
+.tags-container{
+    font-size:12px;
+    font-weight:500;
+    margin-bottom:15px;
+    margin-left:-1px;
+    color:white;
+    .tag{
+        border-radius:5px;
+        padding:4px 8px;
+        margin-right: 5px;
+    }
+}
