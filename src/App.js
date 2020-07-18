@@ -92,16 +92,16 @@ class App extends React.Component {
              <PostList posts={this.state.trending?this.state.trending.posts:null} columns={3}/>
               </div>  
          <div className="col-sm-2">
-          <div class="card my-4" style={{width:'18rem'}}>
-            <h5 class="card-header">Tags</h5>
-            <div class="card-body">
-              <div class="row">
-                <div class="col-lg-12">
-                  <ul class="list-unstyled mb-0">
+          <div className="card my-4" style={{width:'18rem'}}>
+            <h5 className="card-header">Tags</h5>
+            <div className="card-body">
+              <div className="row">
+                <div className="col-lg-12">
+                  <ul className="list-unstyled mb-0">
                     {this.state.topTenTags?this.state.topTenTags.tags.map((tag)=>{
                         return (<li key={tag.ID}>
                           <br/>
-                      <span  onClick={()=>this.getPostsByTag(tag.slug)} className="tagBtn"><i class="fa fa-tag"><span> {tag.name}</span></i></span>
+                      <span  onClick={()=>this.getPostsByTag(tag.slug)} className="tagBtn"><i className="fa fa-tag"><span> {tag.name}</span></i></span>
                        </li>)
                     }): null}
                   </ul>
@@ -120,9 +120,9 @@ class App extends React.Component {
         }
         
   </div>
-  <footer class="py-5  mt-2 bg-dark">
-  <div class="container">
-    <p class="m-0 text-center text-white">Copyright @ Vk</p>
+  <footer className="py-5  mt-2 bg-dark">
+  <div className="container">
+    <p className="m-0 text-center text-white">Copyright @ Vk</p>
   </div>
 </footer>
       </div>
