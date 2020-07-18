@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './Styles/App.css';
 import loading from './Styles/images/loading.gif'
 import PostList from './Components/PostList.jsx'
