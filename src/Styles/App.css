@@ -13,3 +13,12 @@ ul li:hover{
     padding-bottom: 10px;
    
 }
+  
+  .fixed-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }

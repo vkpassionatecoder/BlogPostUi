@@ -119,7 +119,7 @@ class App extends React.Component {
         }
         
   </div>
-  <footer className="py-5  mt-2 bg-dark">
+  <footer className="py-5  mt-2 bg-dark fixed-footer">
   <div className="container">
     <p className="m-0 text-center text-white">Copyright @ Vk</p>
   </div>
