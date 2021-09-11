@@ -31,3 +31,9 @@ ul li:hover {
 a:hover {
   color: white;
 }
+.tag-filter {
+  width: 18rem;
+  position: sticky;
+  top: 0;
+  border: 1px solid #ddd;
+}

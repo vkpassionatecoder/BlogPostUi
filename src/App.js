@@ -107,7 +107,7 @@ class App extends React.Component {
                 />
               </div>
               <div className="col-sm-2">
-                <div className="card my-4" style={{ width: "18rem" }}>
+                <div className="card my-4" className="tag-filter">
                   <h5 className="card-header">Tags</h5>
                   <div className="card-body">
                     <div className="row">
