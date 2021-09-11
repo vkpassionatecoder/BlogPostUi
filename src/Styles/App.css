@@ -1,24 +1,33 @@
-.tagBtn{
-    background-color:transparent;
-    border-radius: 5px;
-    padding: 4px 8px;
-    color: black;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-weight: 300
+.tagBtn {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 4px 8px;
+  color: black;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 300;
 }
 
-ul li:hover{
-    background-color:#eee;
-    padding-bottom: 10px;
-   
+ul li:hover {
+  background-color: #eee;
+  padding-bottom: 10px;
 }
-  
-  .fixed-footer{
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: center;
-  }
+
+.fixed-footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.loader-image {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+a:hover {
+  color: white;
+}
